@@ -1,0 +1,11 @@
+name = "spxnso/Iro"
+version = "0.1.0"
+description = "Lightweight library for rich, terminal-style colored text output"
+authors = ["spxnso"]
+license = "MIT"
+
+[target]
+environment = "luau"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
