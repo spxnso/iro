@@ -1,9 +1,11 @@
 local Tokenizer = require("@Iro/Parser/Tokenizer")
+local Parser = require("@Iro/Parser/Parser")
 
-local input = "<tag>Hello World!</tag>"
-local tokenizer = Tokenizer.new(input)
-local tokens = tokenizer:Tokenize()
+local tokenizer = Tokenizer.new("<error>Failed to connect</error>\n<info>User <b>logged</b> in</info>\n<warning>Low disk space</warning>")
+local parser = Parser.new(tokenizer:Tokenize())
 
-for _, token in tokens do 
-    print(token.Dump)
-end
+local ast = parser:Parse()
+
+local dump = require("@Iro/Dump/Ast")
+
+print(dump(ast))
