@@ -1,6 +1,6 @@
 name = "spxnso/iro"
 version = "1.0.0"
-repository = "github.com/spxnso/iro"
+repository = "https://github.com/spxnso/iro"
 description = "Lightweight library for rich, terminal-style colored text output"
 authors = ["spxnso"]
 license = "MIT"
