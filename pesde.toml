@@ -1,4 +1,4 @@
-name = "spxnso/Iro"
+name = "spxnso/iro"
 version = "0.1.0"
 description = "Lightweight library for rich, terminal-style colored text output"
 authors = ["spxnso"]
