@@ -3,9 +3,16 @@ version = "0.1.0"
 description = "Lightweight library for rich, terminal-style colored text output"
 authors = ["spxnso"]
 license = "MIT"
+includes = [
+  "pesde.toml",
+  "README.md",
+  "LICENSE",
+  "src/**/*.luau",
+]
 
 [target]
 environment = "luau"
+lib="src/init.luau"
 
 [indices]
 default = "https://github.com/pesde-pkg/index"
