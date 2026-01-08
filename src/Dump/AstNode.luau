@@ -1,3 +1,6 @@
+--!nolint 
+-- shut up 
+
 local Types = require("@Iro/Types/Parser")
 
 local function dumpNode(node: Types.AstNode, indent: number?): string
